@@ -19,6 +19,7 @@ function findNemo(array) {
     console.log("running");
     if (array[i] == "nemo") {
       console.log("Found Nemo!");
+      break;
     }
   }
   let t1 = performance.now();
